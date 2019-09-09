@@ -23,7 +23,7 @@ public class DatabaseOperations {
     public static void createStudentsTable() throws SQLException, IOException {
         connection = DatabaseConnector.getConnection();
         sqlStatement = "CREATE TABLE students24 ("
-                + "    STUDENT_ID integer PRIMARY KEY,"
+                + "    STUDENT_ID integer NOT NULL AUTO_INCREMENT PRIMARY KEY,"
                 + "    FIRST_NAME varchar(255),"
                 + "    LAST_NAME varchar(255),"
                 + "    AGE varchar(255),"
