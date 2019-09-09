@@ -35,13 +35,13 @@ public class DatabaseOperations {
         connection.close();
     }
 
+
     public static void fillStudentsTable() throws IOException, SQLException {
         connection = DatabaseConnector.getConnection();
         for (Student s : students) {
-            sqlStatement = "INSERT INTO students24"
-                    + "(STUDENT_ID, FIRST_NAME, LAST_NAME, AGE, PHONE)" + "VALUES"
-                    + "(" + s.studentId + ", \'"
-                    + s.getFirstName() + "\',\'"
+            sqlStatement = "INSERT INTO Students"
+                    + "( firstName, lastName, age, phone)" + "VALUES"
+                    + "(\'" + s.getFirstName() + "\',\'"
                     + s.getLastName() + "\',"
                     + s.getAge() + ","
                     + s.getPhone() + ");";
@@ -54,7 +54,7 @@ public class DatabaseOperations {
 
     public static void showStudentsTable() throws IOException, SQLException {
         connection = DatabaseConnector.getConnection();
-        sqlStatement = "SELECT * FROM students24";
+        sqlStatement = "SELECT * FROM Students";
         statement = connection.createStatement();
 
         rs = statement.executeQuery(sqlStatement);

@@ -2,7 +2,7 @@ package ru.dexsys.student;
 
 public class Student {
     private static int counter;
-    public final int studentId;
+    private static int studentId;
     private String firstName;
     private String lastName;
     private int age;
@@ -14,6 +14,22 @@ public class Student {
         this.age = age;
         this.phone = phone;
         this.studentId = ++counter;
+    }
+
+    public static int getCounter() {
+        return counter;
+    }
+
+    public static void setCounter(int counter) {
+        Student.counter = counter;
+    }
+
+    public static void setStudentId(int studentId) {
+        Student.studentId = studentId;
+    }
+
+    public int getStudentId() {
+        return studentId;
     }
 
     public Student() {
