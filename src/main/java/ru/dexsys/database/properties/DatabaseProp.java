@@ -25,29 +25,14 @@ public class DatabaseProp {
     }
 
     public static String getURL() {
-        try {
-            return URL;
-        } catch (NullPointerException error) {
-            System.err.println("Null URL");
-        }
-        return "Not valid string";
+        return URL;
     }
 
     public static String getUsername() {
-        try {
-            return USERNAME;
-        } catch (NullPointerException error) {
-            System.err.println("Null URL");
-        }
-        return "Not valid string";
+        return USERNAME;
     }
 
     public static String getPassword() {
-        try {
-            return PASSWORD;
-        } catch (NullPointerException error) {
-            System.err.println("Null URL");
-        }
-        return "Not valid string";
+        return PASSWORD;
     }
 }

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dc6b1a2-5c6e-461f-b0f9-e87dc69ea4eb" name="Default Changelist" comment="" />
+    <list default="true" id="9dc6b1a2-5c6e-461f-b0f9-e87dc69ea4eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dexsys/database/properties/DatabaseProp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dexsys/database/properties/DatabaseProp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/dexsys/database/operations/DatabaseOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dexsys/database/operations/DatabaseOperations.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +50,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35053763" />
@@ -100,7 +104,10 @@
       <workItem from="1568010125415" duration="6458000" />
       <workItem from="1568016677761" duration="3941000" />
       <workItem from="1568020785335" duration="12933000" />
-      <workItem from="1568033880248" duration="2911000" />
+      <workItem from="1568033880248" duration="3520000" />
+      <workItem from="1568045721013" duration="198000" />
+      <workItem from="1568088024427" duration="48000" />
+      <workItem from="1568169244311" duration="1058000" />
     </task>
     <servers />
   </component>
@@ -112,7 +119,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
