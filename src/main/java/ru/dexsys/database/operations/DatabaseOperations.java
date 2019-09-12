@@ -56,7 +56,7 @@ public class DatabaseOperations {
         connection = DatabaseConnector.getConnection();
         long currentStudentPhone ;
         statement = connection.createStatement();
-        
+
         for (Student s: students) {
             currentStudentPhone = s.getPhone();
             sqlStatement = "SELECT * FROM Students WHERE phone =" + currentStudentPhone;
