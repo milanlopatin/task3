@@ -54,22 +54,23 @@ public class DatabaseOperations {
 
     public static void showStudentsTable() throws IOException, SQLException {
         connection = DatabaseConnector.getConnection();
-        sqlStatement = "SELECT * FROM Students";
+        long currentStudentPhone ;
         statement = connection.createStatement();
-
-        rs = statement.executeQuery(sqlStatement);
-        while (rs.next()) {
-            int id = rs.getInt(1);
-            String firstName = rs.getString(2);
-            String lastName = rs.getString(3);
-            int age = rs.getInt(4);
-            long phone = rs.getLong(5);
-            System.out.format("STUDENT_ID: %d, FIRST_NAME: %s, LAST_NAME: %s, AGE: %d, PHONE: %d\n",
-                    id, firstName , lastName , age , phone);
-
+        
+        for (Student s: students) {
+            currentStudentPhone = s.getPhone();
+            sqlStatement = "SELECT * FROM Students WHERE phone =" + currentStudentPhone;
+            rs = statement.executeQuery(sqlStatement);
+            while (rs.next()) {
+                int id = rs.getInt(1);
+                String firstName = rs.getString(2);
+                String lastName = rs.getString(3);
+                int age = rs.getInt(4);
+                long phone = rs.getLong(5);
+                System.out.format("Student id: %d, First Name: %s, Last Name: %s, Age: %d, Phone: %d\n",
+                        id, firstName, lastName, age, phone);
+            }
         }
         connection.close();
-
     }
-
 }

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9dc6b1a2-5c6e-461f-b0f9-e87dc69ea4eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dexsys/database/operations/DatabaseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dexsys/database/operations/DatabaseOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/dexsys/database/properties/DatabaseProp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dexsys/database/properties/DatabaseProp.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +107,7 @@
       <workItem from="1568045721013" duration="198000" />
       <workItem from="1568088024427" duration="48000" />
       <workItem from="1568169244311" duration="1793000" />
+      <workItem from="1568284521065" duration="316000" />
     </task>
     <servers />
   </component>
